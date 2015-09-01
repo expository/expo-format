@@ -1,0 +1,38 @@
+# Expo Specification
+
+## Basic example: a single `GET` request written in plain HTTP
+
+An example name comes from the section heading, with raw HTTP parsed from `<pre><code>` blocks.
+
+```html
+<h1>Single, simple GET request</h1>
+
+<pre><code>
+GET /hello-world HTTP/1.1
+</code></pre>
+
+<pre><code>
+HTTP/1.1 200 OK
+Content-Type: text/plain
+
+Hello, world!
+</code></pre>
+```
+```json
+[{
+	"name": "Single, simple GET request",
+	"request": {
+		"method": "GET",
+		"URI": "/hello-world",
+		"http-version": 1.1
+	},
+	"response": {
+		"http-version": 1.1,
+		"status-code": 200,
+		"headers": {
+			"Content-Type": "text/plain"
+		},
+		"body": "Hello, World!"
+	}
+}]
+```
