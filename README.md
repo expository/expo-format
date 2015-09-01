@@ -24,11 +24,11 @@ Most API documents are _already_ using examples to describe how the service work
 
 The spec itself is a set of declarative examples in [`spec.txt`](spec.txt). This is basically a Markdown file, with input/output examples written in sequence:
 
-`````
+~~~~~~~
 ```html
 HTML source
 ```
 ```json
 expected JSON output
 ```
-`````
+~~~~~~
