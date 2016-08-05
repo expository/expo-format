@@ -18,7 +18,9 @@ High-quality API documentation is usually structured around well-crafted example
 
 ## A Documentation _Convention_ and a JSON _Format_
 
-Most API documents are _already_ using examples to describe how the service works. Look at the [Twitter API](https://dev.twitter.com/rest/public), [GitHub API](https://developer.github.com/v3/), and [Facebook API](https://developers.facebook.com/docs/graph-api/reference): they all feature prominent example requests and responses. The Expo spec just defines how machines should process those kinds human-targeted documents.
+Most API documents are _already_ using examples to describe how the service works. Look at the [Twitter API](https://dev.twitter.com/rest/public), [GitHub API](https://developer.github.com/v3/), and [Facebook API](https://developers.facebook.com/docs/graph-api/reference): they all feature prominent example requests and responses. The Expo spec just defines how machines should process those kinds human-targeted documents. 
+
+This repository specifies how to interpret HTML documents written by humans and extract API examples in a JSON format that is easily understood by machines. It is meant to be mostly compatible with the _de facto_ writing conventions already used by API documentation authors. 
 
 ## The Spec
 
